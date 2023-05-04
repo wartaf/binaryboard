@@ -9,9 +9,19 @@ import SwiftUI
 
 @main
 struct BinaryBoardPuzzleApp: App {
+    
     var body: some Scene {
         WindowGroup {
+            //BackgroundCircle()
             ContentView()
+                
+            //PlayingView()
+            //Test2()
+            //Testing()
+            //AnimationTesting()
+            //PopupView()
+                .preferredColorScheme(.light)
+                
         }
     }
 }

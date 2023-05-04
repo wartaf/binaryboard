@@ -7,18 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F4D415B2A03DC9B007C7628 /* fortress.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F4D415A2A03DC9B007C7628 /* fortress.mp3 */; };
+		4F705F972981B6B4005CEB3A /* TallyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F705F962981B6B4005CEB3A /* TallyView.swift */; };
+		4FA5701A29E107410026731B /* StorageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5701929E107410026731B /* StorageHelper.swift */; };
+		4FA5701C29E111C90026731B /* MyHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5701B29E111C90026731B /* MyHelper.swift */; };
+		4FBEEAF329C8A24B00CA12AD /* NonoBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBEEAF229C8A24B00CA12AD /* NonoBoard.swift */; };
+		4FC6D35829AF8D8700C18A84 /* EmptyHeartPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC6D35729AF8D8600C18A84 /* EmptyHeartPopupView.swift */; };
+		4FC726A629B2142900405D16 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC726A529B2142900405D16 /* ImageHelper.swift */; };
+		4FCB547E29D1D4B1003B8D43 /* LevelCompletedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCB547D29D1D4B1003B8D43 /* LevelCompletedView.swift */; };
+		4FCD181529D2FA9D00BD0AD8 /* ViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD181429D2FA9D00BD0AD8 /* ViewHelper.swift */; };
+		4FCD89CB29D46C8400B416B5 /* MyAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD89CA29D46C8400B416B5 /* MyAppState.swift */; };
+		4FD1140429EF37A20033E764 /* LevelDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD1140329EF37A20033E764 /* LevelDataModel.swift */; };
+		4FD27A7E29CEDAB4005A8EA8 /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD27A7D29CEDAB4005A8EA8 /* ChallengeView.swift */; };
+		4FD27A8029CEE7BC005A8EA8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD27A7F29CEE7BB005A8EA8 /* MainView.swift */; };
+		4FD2D5AF29B17056002EECAA /* Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD2D5AE29B17056002EECAA /* Testing.swift */; };
+		4FD2DB4829D951A200C5735E /* HapticHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD2DB4729D951A200C5735E /* HapticHelper.swift */; };
+		4FD40C3229F87C9200BB12BC /* Test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD40C3129F87C9200BB12BC /* Test2.swift */; };
+		4FD444DD29D7D881003C4733 /* AudioHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD444DC29D7D881003C4733 /* AudioHelper.swift */; };
+		4FD5477F29CEA87000C37106 /* RestartPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD5477E29CEA87000C37106 /* RestartPopupView.swift */; };
 		4FD77132296EFE3700BFCA9E /* BinaryBoardPuzzleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD77131296EFE3700BFCA9E /* BinaryBoardPuzzleApp.swift */; };
 		4FD77134296EFE3700BFCA9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD77133296EFE3700BFCA9E /* ContentView.swift */; };
 		4FD77136296EFE3800BFCA9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD77135296EFE3800BFCA9E /* Assets.xcassets */; };
 		4FD77139296EFE3800BFCA9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD77138296EFE3800BFCA9E /* Preview Assets.xcassets */; };
+		4FD77140296EFE7700BFCA9E /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7713F296EFE7700BFCA9E /* Protocol.swift */; };
+		4FDBBB3429AEA98600F208FB /* TallyBoxesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBBB3329AEA98600F208FB /* TallyBoxesView.swift */; };
+		4FDBBB3629AEADA100F208FB /* TallyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBBB3529AEADA100F208FB /* TallyTextView.swift */; };
+		4FE25A3429CA5A410000D239 /* NonoGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE25A3329CA5A410000D239 /* NonoGraph.swift */; };
+		4FE29A4529B1E80600A84DBB /* PlayingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE29A4429B1E80600A84DBB /* PlayingViewModel.swift */; };
+		4FE5DFA929CDD036007A2F0F /* BackgroundCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE5DFA829CDD036007A2F0F /* BackgroundCircle.swift */; };
+		4FE8AEE229D4301700798403 /* EventCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE8AEE129D4301700798403 /* EventCoverView.swift */; };
+		4FEC40192998DF0000A56CC1 /* PlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEC40182998DF0000A56CC1 /* PlayingView.swift */; };
+		4FFE26B429BF4D0100F27BD1 /* Intro1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFE26B329BF4D0100F27BD1 /* Intro1View.swift */; };
+		4FFE26B629BF52EA00F27BD1 /* Intro2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFE26B529BF52EA00F27BD1 /* Intro2View.swift */; };
+		4FFE26B829BF570200F27BD1 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFE26B729BF570200F27BD1 /* MainMenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F4D415A2A03DC9B007C7628 /* fortress.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fortress.mp3; sourceTree = "<group>"; };
+		4F705F962981B6B4005CEB3A /* TallyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyView.swift; sourceTree = "<group>"; };
+		4FA5701929E107410026731B /* StorageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageHelper.swift; sourceTree = "<group>"; };
+		4FA5701B29E111C90026731B /* MyHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHelper.swift; sourceTree = "<group>"; };
+		4FBEEAF229C8A24B00CA12AD /* NonoBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonoBoard.swift; sourceTree = "<group>"; };
+		4FC6D35729AF8D8600C18A84 /* EmptyHeartPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyHeartPopupView.swift; sourceTree = "<group>"; };
+		4FC726A529B2142900405D16 /* ImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		4FCB547D29D1D4B1003B8D43 /* LevelCompletedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCompletedView.swift; sourceTree = "<group>"; };
+		4FCD181429D2FA9D00BD0AD8 /* ViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHelper.swift; sourceTree = "<group>"; };
+		4FCD89CA29D46C8400B416B5 /* MyAppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppState.swift; sourceTree = "<group>"; };
+		4FD1140329EF37A20033E764 /* LevelDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelDataModel.swift; sourceTree = "<group>"; };
+		4FD27A7D29CEDAB4005A8EA8 /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
+		4FD27A7F29CEE7BB005A8EA8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4FD2D5AE29B17056002EECAA /* Testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing.swift; sourceTree = "<group>"; };
+		4FD2DB4729D951A200C5735E /* HapticHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticHelper.swift; sourceTree = "<group>"; };
+		4FD40C3129F87C9200BB12BC /* Test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2.swift; sourceTree = "<group>"; };
+		4FD444DC29D7D881003C4733 /* AudioHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioHelper.swift; sourceTree = "<group>"; };
+		4FD5477E29CEA87000C37106 /* RestartPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartPopupView.swift; sourceTree = "<group>"; };
 		4FD7712E296EFE3700BFCA9E /* BinaryBoardPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinaryBoardPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD77131296EFE3700BFCA9E /* BinaryBoardPuzzleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryBoardPuzzleApp.swift; sourceTree = "<group>"; };
 		4FD77133296EFE3700BFCA9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4FD77135296EFE3800BFCA9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FD77138296EFE3800BFCA9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4FD7713F296EFE7700BFCA9E /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		4FDBBB3329AEA98600F208FB /* TallyBoxesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyBoxesView.swift; sourceTree = "<group>"; };
+		4FDBBB3529AEADA100F208FB /* TallyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyTextView.swift; sourceTree = "<group>"; };
+		4FE25A3329CA5A410000D239 /* NonoGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonoGraph.swift; sourceTree = "<group>"; };
+		4FE29A4429B1E80600A84DBB /* PlayingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingViewModel.swift; sourceTree = "<group>"; };
+		4FE5DFA829CDD036007A2F0F /* BackgroundCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundCircle.swift; sourceTree = "<group>"; };
+		4FE8AEE129D4301700798403 /* EventCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCoverView.swift; sourceTree = "<group>"; };
+		4FEC40182998DF0000A56CC1 /* PlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingView.swift; sourceTree = "<group>"; };
+		4FFE26B329BF4D0100F27BD1 /* Intro1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro1View.swift; sourceTree = "<group>"; };
+		4FFE26B529BF52EA00F27BD1 /* Intro2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro2View.swift; sourceTree = "<group>"; };
+		4FFE26B729BF570200F27BD1 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +90,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FC726A429B2141000405D16 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4FC726A529B2142900405D16 /* ImageHelper.swift */,
+				4FD444DC29D7D881003C4733 /* AudioHelper.swift */,
+				4FD2DB4729D951A200C5735E /* HapticHelper.swift */,
+				4FCD181429D2FA9D00BD0AD8 /* ViewHelper.swift */,
+				4FA5701929E107410026731B /* StorageHelper.swift */,
+				4FA5701B29E111C90026731B /* MyHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		4FD27A8129CEE833005A8EA8 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				4FD27A7F29CEE7BB005A8EA8 /* MainView.swift */,
+				4FFE26B329BF4D0100F27BD1 /* Intro1View.swift */,
+				4FFE26B529BF52EA00F27BD1 /* Intro2View.swift */,
+				4FD27A7D29CEDAB4005A8EA8 /* ChallengeView.swift */,
+				4FFE26B729BF570200F27BD1 /* MainMenuView.swift */,
+				4FE8AEE129D4301700798403 /* EventCoverView.swift */,
+			);
+			path = MainMenu;
+			sourceTree = "<group>";
+		};
 		4FD77125296EFE3700BFCA9E = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +137,20 @@
 			children = (
 				4FD77131296EFE3700BFCA9E /* BinaryBoardPuzzleApp.swift */,
 				4FD77133296EFE3700BFCA9E /* ContentView.swift */,
+				4FCD89CA29D46C8400B416B5 /* MyAppState.swift */,
+				4FD1140329EF37A20033E764 /* LevelDataModel.swift */,
+				4FD27A8129CEE833005A8EA8 /* MainMenu */,
+				4FEC40182998DF0000A56CC1 /* PlayingView.swift */,
+				4FE29A4429B1E80600A84DBB /* PlayingViewModel.swift */,
+				4FE5DFA829CDD036007A2F0F /* BackgroundCircle.swift */,
+				4FD2D5AE29B17056002EECAA /* Testing.swift */,
+				4FC726A429B2141000405D16 /* Helper */,
+				4FDBBB3229AEA96B00F208FB /* BoardViews */,
+				4FD7713F296EFE7700BFCA9E /* Protocol.swift */,
+				4F705F962981B6B4005CEB3A /* TallyView.swift */,
+				4FBEEAF229C8A24B00CA12AD /* NonoBoard.swift */,
+				4FD40C3129F87C9200BB12BC /* Test2.swift */,
+				4F4D415A2A03DC9B007C7628 /* fortress.mp3 */,
 				4FD77135296EFE3800BFCA9E /* Assets.xcassets */,
 				4FD77137296EFE3800BFCA9E /* Preview Content */,
 			);
@@ -65,6 +163,19 @@
 				4FD77138296EFE3800BFCA9E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4FDBBB3229AEA96B00F208FB /* BoardViews */ = {
+			isa = PBXGroup;
+			children = (
+				4FCB547D29D1D4B1003B8D43 /* LevelCompletedView.swift */,
+				4FDBBB3329AEA98600F208FB /* TallyBoxesView.swift */,
+				4FDBBB3529AEADA100F208FB /* TallyTextView.swift */,
+				4FC6D35729AF8D8600C18A84 /* EmptyHeartPopupView.swift */,
+				4FD5477E29CEA87000C37106 /* RestartPopupView.swift */,
+				4FE25A3329CA5A410000D239 /* NonoGraph.swift */,
+			);
+			path = BoardViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +194,8 @@
 			dependencies = (
 			);
 			name = BinaryBoardPuzzle;
+			packageProductDependencies = (
+			);
 			productName = BinaryBoardPuzzle;
 			productReference = 4FD7712E296EFE3700BFCA9E /* BinaryBoardPuzzle.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +224,8 @@
 				Base,
 			);
 			mainGroup = 4FD77125296EFE3700BFCA9E;
+			packageReferences = (
+			);
 			productRefGroup = 4FD7712F296EFE3700BFCA9E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +242,7 @@
 			files = (
 				4FD77139296EFE3800BFCA9E /* Preview Assets.xcassets in Resources */,
 				4FD77136296EFE3800BFCA9E /* Assets.xcassets in Resources */,
+				4F4D415B2A03DC9B007C7628 /* fortress.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +253,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FFE26B629BF52EA00F27BD1 /* Intro2View.swift in Sources */,
+				4FD5477F29CEA87000C37106 /* RestartPopupView.swift in Sources */,
 				4FD77134296EFE3700BFCA9E /* ContentView.swift in Sources */,
+				4FA5701C29E111C90026731B /* MyHelper.swift in Sources */,
+				4FC6D35829AF8D8700C18A84 /* EmptyHeartPopupView.swift in Sources */,
 				4FD77132296EFE3700BFCA9E /* BinaryBoardPuzzleApp.swift in Sources */,
+				4FBEEAF329C8A24B00CA12AD /* NonoBoard.swift in Sources */,
+				4FCD181529D2FA9D00BD0AD8 /* ViewHelper.swift in Sources */,
+				4FFE26B429BF4D0100F27BD1 /* Intro1View.swift in Sources */,
+				4FD1140429EF37A20033E764 /* LevelDataModel.swift in Sources */,
+				4FD27A8029CEE7BC005A8EA8 /* MainView.swift in Sources */,
+				4FD444DD29D7D881003C4733 /* AudioHelper.swift in Sources */,
+				4FE29A4529B1E80600A84DBB /* PlayingViewModel.swift in Sources */,
+				4FD2D5AF29B17056002EECAA /* Testing.swift in Sources */,
+				4FA5701A29E107410026731B /* StorageHelper.swift in Sources */,
+				4FE8AEE229D4301700798403 /* EventCoverView.swift in Sources */,
+				4FEC40192998DF0000A56CC1 /* PlayingView.swift in Sources */,
+				4FDBBB3429AEA98600F208FB /* TallyBoxesView.swift in Sources */,
+				4FD40C3229F87C9200BB12BC /* Test2.swift in Sources */,
+				4FFE26B829BF570200F27BD1 /* MainMenuView.swift in Sources */,
+				4FCD89CB29D46C8400B416B5 /* MyAppState.swift in Sources */,
+				4FDBBB3629AEADA100F208FB /* TallyTextView.swift in Sources */,
+				4FE25A3429CA5A410000D239 /* NonoGraph.swift in Sources */,
+				4FD77140296EFE7700BFCA9E /* Protocol.swift in Sources */,
+				4FCB547E29D1D4B1003B8D43 /* LevelCompletedView.swift in Sources */,
+				4FD27A7E29CEDAB4005A8EA8 /* ChallengeView.swift in Sources */,
+				4FD2DB4829D951A200C5735E /* HapticHelper.swift in Sources */,
+				4F705F972981B6B4005CEB3A /* TallyView.swift in Sources */,
+				4FE5DFA929CDD036007A2F0F /* BackgroundCircle.swift in Sources */,
+				4FC726A629B2142900405D16 /* ImageHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,20 +411,20 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BinaryBoardPuzzle/Preview Content\"";
-				DEVELOPMENT_TEAM = C9838949E6;
+				DEVELOPMENT_TEAM = V542NQW43X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.iamhpp.xconfigs.BinaryBoardPuzzle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iamhpp.BinaryBoardPuzzle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -296,20 +440,20 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BinaryBoardPuzzle/Preview Content\"";
-				DEVELOPMENT_TEAM = C9838949E6;
+				DEVELOPMENT_TEAM = V542NQW43X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.iamhpp.xconfigs.BinaryBoardPuzzle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iamhpp.BinaryBoardPuzzle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
